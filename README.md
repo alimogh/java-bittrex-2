@@ -45,5 +45,5 @@ Please attach your key & secret in a text file and place it in the same folder a
 
 Donations are appreciated!
 
-- BTC: 1EryF7zrsL2dXCfcsVzkdPfQcDTL9qqFA1
-- DOGE: DTe4YtwKpwMp83RDozouK3A4ThBD2D3L3B
+- BTC: 1P2RobdwhT5QmdDqDudXSJ81v4ZKpNWXSb
+- DOGE: DCdisnbNQeAaTtdRvwgvu9pL8SVAtZR9Mm
