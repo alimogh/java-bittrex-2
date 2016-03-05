@@ -1,0 +1,49 @@
+# java-bittrex-2
+Java wrapper for the 2.0 version of the Bittrex API (version 1.1 [here](https://github.com/platelminto/java-bittrex)). Methods return a Response object with the following variables:
+
+ - ```responseCode``` - int set to the response code
+ - ```success``` - boolean set to true if the request succeded
+ - ```message``` - String with details if the request is invalid
+ - ```response``` - String with the actual response
+
+### Usage
+```
+public static void main(String...args) {
+
+	Bittrex wrapper = new Bittrex();
+	wrapper.setAuthKeysFromTextFile("keys.txt");
+
+	Response response = wrapper.getOpenOrders();
+	
+	if(response.isSuccessful())
+	
+	  System.out.println(response.getResult());
+}
+```
+### Key & Secret
+
+Please attach your key & secret in a text file and place it in the same folder as your source code. It should be formatted like so:
+
+```
+ - apikey: "key"
+ - secret: "secret"
+```
+
+### Dependencies
+
+- Apache HttpClient
+
+```
+<dependency>
+  <groupId>org.apache.httpcomponents</groupId>
+  <artifactId>httpclient</artifactId>
+  <version>4.5.2</version>
+</dependency>
+```
+
+### Donate
+
+Donations are appreciated!
+
+- BTC: 1EryF7zrsL2dXCfcsVzkdPfQcDTL9qqFA1
+- DOGE: DTe4YtwKpwMp83RDozouK3A4ThBD2D3L3B
