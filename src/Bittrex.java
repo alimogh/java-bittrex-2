@@ -334,7 +334,7 @@ public class Bittrex {
 		
 		String resultString = "\"result\":";
 		int indexOfResultString = urlResponse.indexOf(resultString) + resultString.length();
-		String result = urlResponse.substring(indexOfResultString, urlResponse.lastIndexOf("]"));
+		String result = urlResponse.substring(indexOfResultString, urlResponse.lastIndexOf("}"));
 		
 		String messageString = "\"message\":\"";
 		int indexOfMessageString = urlResponse.indexOf(messageString) + messageString.length();
