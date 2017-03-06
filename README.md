@@ -1,5 +1,8 @@
 # java-bittrex-2
-Java wrapper for the beta 2.0 version of the Bittrex API (version 1.1 [here](https://github.com/platelminto/java-bittrex)). _Use version 1.1 until further notice, as various endpoints used for initial development of this wrapper are now failing._ Methods return a Response object with the following variables:
+
+####_Use version 1.1 until further notice, as various endpoints used for initial development of this wrapper are now failing._####
+
+Java wrapper for the beta 2.0 version of the Bittrex API (version 1.1 [here](https://github.com/platelminto/java-bittrex)).  Methods return a Response object with the following variables:
 
  - ```responseCode``` - int set to the response code
  - ```success``` - boolean set to true if the request succeded
