@@ -2,6 +2,8 @@
 
 ## _Use version 1.1 until further notice, as various endpoints used for initial development of this wrapper are now failing._
 
+# This means: do not use this. It does not work. Use v1.1. That does work.
+
 Java wrapper for the beta 2.0 version of the Bittrex API (version 1.1 [here](https://github.com/platelminto/java-bittrex)).  Methods return a Response object with the following variables:
 
  - ```responseCode``` - int set to the response code
